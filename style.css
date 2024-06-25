@@ -1,0 +1,645 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#container{
+    width: 100%;
+    height: 100vh;
+    background-color: #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow-y: hidden;
+}
+
+
+#box{
+    width: 1230px;
+    height: calc(100vh - 1vh);
+    border: 2px solid black;
+}
+
+#header{
+    height: 90px;
+     background-image: url('Mobileapp.jpg');
+     width: 100%;
+}
+
+#header p{
+    color: white;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+
+#header input{
+    outline: none;
+    border-bottom: 1px solid white;
+}
+
+#box{
+    background-color: #ddd;
+}
+
+
+#topHeader{
+    display: flex;
+    padding: 5px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+#topHeader p{
+    margin-top: 9px;
+}
+
+#name, #date{
+    display: flex;
+}
+
+#date input{
+    background-color: white;
+    color: black;
+}
+
+input{
+    padding: 3px;
+}
+
+#address{
+    background-color: red;
+    width: 472px;
+}
+
+#items{
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+
+#print, #create{
+    height: 25px;
+}
+
+#content, #content2{
+    display: flex;
+    gap: 50px;
+    padding: 0px 20px;
+    margin-top: 5px;
+}
+
+#content, #content2 h4{
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+
+#items p{
+    margin-top: 10px;
+    font-weight: normal;
+}
+
+
+#hr{
+    margin-top: 9px;
+}
+
+#currentTime{
+    padding-right: 10px;
+}
+
+
+#name{
+    margin-left: 10px;
+}
+
+#box{
+    overflow-y: scroll;
+}
+
+
+#items input{
+width: 80px;
+padding: 5px 2px;
+outline: none;
+height: 22px;
+}
+
+#content{
+    margin-bottom: 60px;
+}
+
+
+#item{
+    display: flex;
+    flex-direction: column;
+}
+
+#description{
+    display: flex;
+    flex-direction: column;
+}
+
+
+#item input{
+    margin-top: 10px;
+    width: 100px;
+}
+
+
+
+#description input{
+    margin-top: 10px;
+    width: 100px;
+}
+
+button{
+    cursor: pointer;
+    width: 50px;
+    height: 20px;
+}
+
+#print{
+    width: 50px;
+    cursor: pointer;
+}
+
+#content2{
+    width: 400px;
+    display: flex;
+    gap: 60px;
+}
+
+#content2 input{
+margin: 5px 0;
+}
+
+
+
+
+
+#sum{
+    width: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 0px 10px;
+}
+
+#sumInputFieldValues{
+    height: 30px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    background-color: green;
+    color: white;
+    padding: 0px 6px;
+}
+
+
+#sum{
+    font-family: sans-serif;
+    color: rgb(18, 187, 18);
+}
+
+
+#items{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.item{
+    display: flex;
+    gap: 20px;
+    padding: 0.2px 0;
+    width: 800px;
+    margin-left: 70px;
+}
+
+
+#items input{
+    width: 150px;
+    padding: 12px 0px;
+    border: none;
+    padding-left: 3px;
+}
+
+#items input[name="qty"]{
+    width: 100px;
+    margin-left: 120px;
+    padding-left: 3px;
+}
+
+
+#items input[name="rate"]{
+    width: 100px;
+    padding-left: 3px;
+}
+
+#items input[name="amt"]{
+    width: 100px;
+    padding-left: 3px;
+}
+
+
+#items{
+    margin-top: 10px;
+}
+
+#del{
+    background-color: orangered;
+    border: none;
+    width: fit-content;
+    width: 30px;
+    height: 25px;
+    border: 1px solid black;
+    color: white;
+}
+
+
+
+#inputs{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+
+
+#sum{
+    font-size: 15px;
+    color: black;
+}
+
+
+#num{
+    cursor: pointer;
+    background-color: green;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border: none;
+    border: 1px solid black;
+    margin-top: -15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+#serialNumberContainer {
+    display: flex;
+    flex-direction: column;
+    margin-left: -100px;
+}
+
+
+
+
+
+#append{
+position: relative;
+}
+
+
+#serialNumberContainer{
+margin-top: -8px;
+}
+
+#date2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#date2 p{
+    font-size: 13px;
+    color: black;
+    padding-bottom: 6px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+
+
+#date2{
+    background-color: rgb(255, 255, 255);
+    height: 24px;
+    width: 115.3px;
+    margin-top: 2.5px;
+}
+
+#date2 span{
+    color: rgb(0, 0, 0);
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: 13px
+}
+
+
+#delete{
+    width: fit-content;
+}
+
+
+
+h4{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(165, 0, 0);
+}
+
+
+
+#col{
+display: flex;
+flex-direction: column;
+}
+
+
+
+
+
+#Paid button{
+    width: 100px;
+}
+
+
+#MoneyBox{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: fit-content;
+    padding: 10px;
+    margin-right: 0;
+    border: 2px solid black;
+}
+
+
+#Money{
+    display: flex;
+    border: 1px solid black;
+    width: 250px;
+}
+
+
+#BillPaid{
+    width: 150px;
+    padding: 5px 2px;
+    border: 1px solid black;
+    outline: none;
+    height: 30px;
+}
+
+#remains{
+    width: 150px;
+    padding: 5px 2px;
+    border: 1px solid black;
+    outline: none;
+    margin-top: 3px;
+    border: none;
+}
+
+#PaidBtn{
+    height: 28px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    background-color: green;
+    color: white;
+    padding: 0px 6px;
+    margin-right: -5px;
+}
+
+#Paid{
+    margin-top: 4px;
+}
+
+
+#remains{
+    display: flex;
+     height: 28px;
+     background-color: white;
+}
+
+#Remain{
+    display: flex;
+    color: red;
+}
+
+
+#alerts{
+    height: 28px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    background-color: green;
+    color: white;
+    padding: 0px 6px;
+    margin-top: 4px; 
+}
+
+#sum{
+    background-color: white;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    border: none;
+}
+
+
+#MainBox{
+    width: 100%;
+    display: none;
+    border: none;
+}
+
+
+#MoneyBox{
+    margin-left: 60%;
+    margin-top: 5px;
+    border: none;
+}
+
+#name, #date input{
+    height: 25px;
+}
+
+
+
+#shopName{
+    height: 70px;
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    color: white;
+    border-right: 2px solid white;
+}
+
+#shopName p{
+    color: white;
+    font-size: 15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+
+.address{
+    margin-left: 210px;
+    margin-top: -50px;
+}
+
+
+
+#name input{
+    margin-left: 15px;
+}
+
+
+
+#buttons{
+    display: flex;
+    flex-direction: column;
+    margin-top: -78px;
+    margin-left: -10px;
+    gap: 3px 0;
+}
+
+#buttons button{
+    background-color: white;
+}
+
+
+#shopInput2{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px 0;
+}
+
+#shopInput2 input{
+   height: 24px;
+   margin-top: 1px;
+}
+
+
+
+#shopsName1 button{
+    width: fit-content;
+    padding: 0px 3px;
+    height: 24px;
+}
+
+
+#shopsName2 button{
+    width: fit-content;
+    padding: 0px 3px;
+    height: 24px;
+}
+
+
+
+#BillPaid, #remains{
+    padding-left: 7px;
+    font-weight: bold;
+}
+
+
+#shopAddress{
+    display: flex;
+}
+
+#AddBtn{
+    width: fit-content;
+    padding: 0 3px;
+}
+
+
+#name{
+    margin-left: 11px;
+}
+
+#name input{
+    border: none;
+    outline: none;
+    padding: 0px 6.5px;
+}
+
+#address{
+    height: 26px;
+    outline: none;
+    border: none;
+}
+
+
+#BillPaid{
+    border: none;
+    font-family: sans-serif;
+}
+
+
+#Money{
+    border: none;
+}
+
+
+#remains{
+    margin-top: 4px;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+
+#GST{
+    width: 250px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    height: 28px;
+    margin-bottom: 3px;
+    align-items: center;
+}
+
+#GST button{
+    height: 28px;
+    width: 100px;
+    border: none;
+    background-color: transparent;
+    background-color: green;
+    color: white;
+    padding: 0px 6px;
+}
+
+
+#totalAmount{
+    padding-left: 3px 0;
+    font-weight: bold;
+    margin-left: 8px;
+}
+
+
+#Bill{
+    display: flex;
+    justify-content: center;
+    gap: 5px 10px;
+    margin-top: 10px;
+}
+
+#Bill span{
+    font-size: 15px;
+    font-family: sans-serif;
+}
